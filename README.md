@@ -18,7 +18,7 @@
   <li>O esquema do banco de dados conceitual.</li>
   <li>Instruções para configurar o banco de dados.</li>
   <li>Informações sobre como contribuir para o projeto.</li>
-  <li><a href="https://app.diagrams.net/#Hadsluizapaiva%2FBD_zedelivery%2Fmain%2FDiagrama%20sem%20nome.drawio">Diagrama do Banco de Dados</a></li>
+  <li><a href="https://app.diagrams.net/#G1wJ6oesJNgAgG5enlLVo9y24HItuNXswm">Diagrama do Banco de Dados</a></li>
 </ul>
 
 <h3 align="center">Pré-requisitos</h3>
