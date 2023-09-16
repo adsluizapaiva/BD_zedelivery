@@ -21,6 +21,9 @@
   <li><a href="https://app.diagrams.net/#G1wJ6oesJNgAgG5enlLVo9y24HItuNXswm">Diagrama do Banco de Dados</a></li>
 </ul>
 
+<p align="center">
+  <img src="https://github.com/adsluizapaiva/BD_zedelivery/blob/main/DIAGRAMA%20ZE%20DELIVERY.PNG" alt="DIAGRAMA ZE DELIVERY">
+
 <h3 align="center">Pré-requisitos</h3>
 
 <p align="center">Para executar o projeto, você precisará dos seguintes pré-requisitos:</p>
