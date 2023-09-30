@@ -24,7 +24,7 @@
 <p align="center">
   <img src="https://github.com/adsluizapaiva/BD_zedelivery/blob/main/DIAGRAMA%20ZE%20DELIVERY.PNG" alt="DIAGRAMA ZE DELIVERY">
 
-<li><a href="https://app.diagrams.net/#G1wJ6oesJNgAgG5enlLVo9y24HItuNXswm">Segunda parte de Diagrama do Banco de Dados - Trabalho lógico</a></li>
+<li><a href="https://app.diagrams.net/?src=about#G1hHsDathYC6dXj2Y5N7GYPRijZmo5SGlO">Segunda parte de Diagrama do Banco de Dados - Trabalho lógico</a></li>
 </ul>
 
 <p align="center">
