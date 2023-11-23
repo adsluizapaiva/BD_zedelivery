@@ -1,6 +1,6 @@
 # ZÉ DELIVERY - Sistema de Delivery de Bebidas
 <p align="center">
-  <img width="300" src="https://github.com/adsluizapaiva/BD_zedelivery/blob/main/ze-delivery1-3bce35f8e47826e3c216395264939948-640-0-removebg-preview.png" alt="Logo ZÉ Delivery de Bebidas">
+  <img width="300" src="https://github.com/adsluizapaiva/BD_zedelivery/blob/main/ZE%20DELIVERY%20LOGO.png" alt="Logo ZÉ Delivery de Bebidas">
 </p>
 
 Bem-vindo ao repositório do ZÉ DELIVERY, um projeto simulado de aplicativo de delivery de bebidas!
