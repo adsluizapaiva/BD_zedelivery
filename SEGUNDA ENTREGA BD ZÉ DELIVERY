@@ -1,12 +1,10 @@
-### SEGUNDA ENTREGA BD ZÉ DELIVERY
-
 -- Tabela de Usuários
 CREATE TABLE Usuario (
     login VARCHAR(255) PRIMARY KEY,
     senha VARCHAR(255),
     nome VARCHAR(255),
-    CPF VARCHAR(14),
-    email VARCHAR(255),
+    CPF VARCHAR(14) UNIQUE,
+    email VARCHAR(255) UNIQUE,
     endereco VARCHAR(255),
     telefone VARCHAR(20)
 );
@@ -25,7 +23,8 @@ CREATE TABLE Pedido (
     data_hora_pedido TIMESTAMP,
     tempo_espera INT,
     valor_total DECIMAL(10, 2),
-    status_pedido VARCHAR(50)
+    status_pedido VARCHAR(50),
+    CONSTRAINT FK_Pedido_Usuario FOREIGN KEY (codigo_usuario) REFERENCES Usuario(login)
 );
 
 -- Tabela de Pedidos_Produtos (para armazenar os produtos em cada pedido)
@@ -57,7 +56,9 @@ CREATE TABLE Vendedor (
     codigo_usuario VARCHAR(255) REFERENCES Usuario(login),
     nome_vendedor VARCHAR(255),
     telefone_vendedor VARCHAR(20),
-    isAdmin BOOLEAN
+    isAdmin BOOLEAN,
+    CONSTRAINT FK_Vendedor_LojaFisica FOREIGN KEY (codigo_loja) REFERENCES LojaFisica(codigo_loja),
+    CONSTRAINT FK_Vendedor_Usuario FOREIGN KEY (codigo_usuario) REFERENCES Usuario(login)
 );
 
 -- Tabela de Lojas Físicas
@@ -74,5 +75,6 @@ CREATE TABLE RelatorioMensal (
     codigo_loja INT REFERENCES LojaFisica(codigo_loja),
     valor_total_vendas DECIMAL(10, 2),
     data_inicio DATE,
-    data_fim DATE
+    data_fim DATE,
+    CONSTRAINT FK_RelatorioMensal_LojaFisica FOREIGN KEY (codigo_loja) REFERENCES LojaFisica(codigo_loja)
 );
